@@ -1,0 +1,17 @@
+stability-aware-dispatch/
+│
+├── data/                   # Where your Solar CSVs will live
+│   └── solar_profile.csv   # (Download a dummy one later)
+│
+├── src/                    # Source Code
+│   ├── __init__.py
+│   ├── config.py           # The Settings (Battery Size, Nuclear MW)
+│   ├── components.py       # The Classes (Nuclear, Solar, Battery)
+│   └── optimizer.py        # The Brain (The Logic)
+│
+├── notebooks/              # Jupyter Notebooks for testing
+│   └── 01_test_components.ipynb
+│
+├── main.py                 # The file you run to start simulation
+├── requirements.txt        # List of libraries
+└── README.md
